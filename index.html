@@ -1,142 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
+    <title>United Baristas</title>
     <link rel="stylesheet" href="css/style.css">
-  </head>
+</head>
 
-  <body>
+<body>
     <div id="page-wrapper">
-      <header id="header">
-        <div class="logo">
-          <img
-            id="header-img"
-            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
-            alt="original trombones logo"
-          />
+        <header id="header">
+            <div class="logo">
+                <img id="header-img" src="https://unitedbaristas.com/wp-content/uploads/2022/12/United-Baristas-Togther-Again-website-header@3x.png" />
+            </div>
+
+            <nav id="nav-bar">
+                <ul>
+                    <li><a class="nav-link" href="#features">Features</a></li>
+                    <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+                    <li><a class="nav-link" href="#pricing">Pricing</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="container"></div>
+
+        <section id="hero">
+            <h2> Coffee Shops The United Baristas guide</h2>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <input name="email" id="email" type="email" placeholder="Put your e-mail address" required />
+                <input id="submit" type="submit" value="Get Started" class="btn" />
+            </form>
+        </section>
+
+        <div class="container">
+            <section id="features">
+                <div class="grid">
+                    <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+                    <div class="desc">
+                        <h2>Premium Materials</h2>
+                        <p>
+                            capture information from contacts in exchange for something of value.
+                        </p>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+                    <div class="desc">
+                        <h2>Fast Shipping</h2>
+                        <p>
+                            We make sure you recieve your coffee as soon as we have finished making it. We also provide free returns if you are not satisfied. we also make sure the coffee are procces in good condition.
+                        </p>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="icon">
+                        <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+                    </div>
+                    <div class="desc">
+                        <h2>Quality Assurance about personal care</h2>
+                        <p>
+                            For every purchase you make, we will ensure there are no bad effect in coffe and we will check and test the product very well. We also reduce the single plastic in daily routine.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section id="how-it-works">
+                <iframe id="video" height="315" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+            </section>
+            <section id="pricing">
+                <div class="product" id="tenor">
+                    <div class="level">Tenor coffee</div>
+                    <h2>$400</h2>
+                    <ol>
+                        <li>Lorem ipsum.</li>
+                        <li>Lorem ipsum.</li>
+                        <li>Lorem ipsum dolor.</li>
+                        <li>Lorem ipsum.</li>
+                    </ol>
+                    <button class="btn">Select</button>
+                </div>
+                <div class="product" id="bass">
+                    <div class="level">coffee</div>
+                    <h2>$700</h2>
+                    <ol>
+                        <li>Lorem ipsum.</li>
+                        <li>Lorem ipsum.</li>
+                        <li>Lorem ipsum dolor.</li>
+                        <li>Lorem ipsum.</li>
+                    </ol>
+                    <button class="btn">Select</button>
+                </div>
+                <div class="product" id="valve">
+                    <div class="level">Valve coffee</div>
+                    <h2>$1300</h2>
+                    <ol>
+                        <li>Plays similar to coffee</li>
+                        <li>Great for Jazz Bands</li>
+                        <li>Lorem ipsum dolor.</li>
+                        <li>Lorem ipsum.</li>
+                    </ol>
+                    <button class="btn">Select</button>
+                </div>
+            </section>
+            <footer>
+                <ul>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <span>Copyright 2015, Original coffee</span>
+            </footer>
         </div>
-
-        <nav id="nav-bar">
-          <ul>
-            <li><a class="nav-link" href="#features">Features</a></li>
-            <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
-            <li><a class="nav-link" href="#pricing">Pricing</a></li>
-          </ul>
-        </nav>
-      </header>
-
-      <div class="container"></div>
-
-      <section id="hero">
-        <h2>Handcrafted, home-made masterpieces</h2>
-        <form id="form" action="https://www.freecodecamp.com/email-submit">
-          <input
-            name="email"
-            id="email"
-            type="email"
-            placeholder="Enter your email address"
-            required
-          />
-          <input id="submit" type="submit" value="Get Started" class="btn" />
-        </form>
-      </section>
-
-      <div class="container">
-        <section id="features">
-          <div class="grid">
-            <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
-            <div class="desc">
-              <h2>Premium Materials</h2>
-              <p>
-                capture information from contacts in exchange for something of value.
-              </p>
-            </div>
-          </div>
-          <div class="grid">
-            <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
-            <div class="desc">
-              <h2>Fast Shipping</h2>
-              <p>
-                We make sure you recieve your coffee as soon as we have
-                finished making it. We also provide free returns if you are not
-                satisfied.
-                we also make sure the coffee are procces in good condition.
-              </p>
-            </div>
-          </div>
-          <div class="grid">
-            <div class="icon">
-              <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
-            </div>
-            <div class="desc">
-              <h2>Quality Assurance about personal care</h2>
-              <p>
-                For every purchase you make, we will ensure there are no bad effect
-                in coffe and we will check and test the product very well.
-                We also reduce the single plastic in daily routine.
-              </p>
-            </div>
-          </div>
-        </section>
-        <section id="how-it-works">
-          <iframe
-            id="video"
-            height="315"
-            src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"
-            frameborder="0"
-            allowfullscreen
-          ></iframe>
-        </section>
-        <section id="pricing">
-          <div class="product" id="tenor">
-            <div class="level">Tenor coffee</div>
-            <h2>$400</h2>
-            <ol>
-              <li>Lorem ipsum.</li>
-              <li>Lorem ipsum.</li>
-              <li>Lorem ipsum dolor.</li>
-              <li>Lorem ipsum.</li>
-            </ol>
-            <button class="btn">Select</button>
-          </div>
-          <div class="product" id="bass">
-            <div class="level">coffee</div>
-            <h2>$700</h2>
-            <ol>
-              <li>Lorem ipsum.</li>
-              <li>Lorem ipsum.</li>
-              <li>Lorem ipsum dolor.</li>
-              <li>Lorem ipsum.</li>
-            </ol>
-            <button class="btn">Select</button>
-          </div>
-          <div class="product" id="valve">
-            <div class="level">Valve coffee</div>
-            <h2>$1300</h2>
-            <ol>
-              <li>Plays similar to coffee</li>
-              <li>Great for Jazz Bands</li>
-              <li>Lorem ipsum dolor.</li>
-              <li>Lorem ipsum.</li>
-            </ol>
-            <button class="btn">Select</button>
-          </div>
-        </section>
-        <footer>
-          <ul>
-            <li><a href="#">Privacy</a></li>
-            <li><a href="#">Terms</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-          <span>Copyright 2015, Original coffee</span>
-        </footer>
-      </div>
     </div>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
 
-   
-    <script  src="js/index.js"></script>
-  </body>
+
+    <script src="js/index.js"></script>
+</body>
+
 </html>
